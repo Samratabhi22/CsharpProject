@@ -5,6 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CsharpProject.ENUM_And_Struct
+   // In C#, classes and structs are blueprints that are used to create instance of a class.
+   // Structs are used for lightweight objects such as Color, Rectangle, Point etc.
+
+//Unlike class, structs in C# are value type than reference type.
+//
+//It is useful if you have data that is not intended to be modified after creation of struct.
+
+
 {//C# Struct Example
     public class Rectangle
     {
@@ -39,7 +47,7 @@ namespace CsharpProject.ENUM_And_Struct
     }
     public class TestStructss
     {
-        public static void Main()
+        public static void Maiin()
         {
             Rectanglle r = new Rectanglle(5, 6);
             r.areaOfRectangle();
