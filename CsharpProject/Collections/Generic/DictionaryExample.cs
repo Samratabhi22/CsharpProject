@@ -8,7 +8,7 @@ namespace CsharpProject.Collections.Generic
 {
     public  class DictionaryExample
     {
-        public static void Main(string[] args)
+        public static void Mannin(string[] args)
         {
             Dictionary<string, string> names = new Dictionary<string, string>();
             names.Add("1", "Sonoo");
