@@ -80,12 +80,12 @@ namespace CsharpProject.OOPS
     public class InheritDriver : Inherit
     {
 
-        public static void pain(String[] args)
+        public static void vain(String[] args)
         {
             Inherit obj1 = new Inherit();//super class object
-            Console.WriteLine(Inherit.a);
+            Console.WriteLine(Inherit.a);//calling static variable
 
-            obj1.test1();
+            obj1.test1();//calling non static method
         }
     }
     

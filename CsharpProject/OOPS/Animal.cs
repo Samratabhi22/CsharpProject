@@ -30,11 +30,12 @@ namespace CsharpProject.OOPS
         {
             Console.WriteLine("Dog barks");
         }
-        public static void eain(string[] args)
+        public static void rain(string[] args)
         {
             Animal ani = new Animal();
             ani.add(1);
             ani.add(2+3);
+            ani.sound();
             Animal dg = new Dog ();
             dg.sound();
 

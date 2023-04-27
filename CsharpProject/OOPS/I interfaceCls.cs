@@ -20,7 +20,7 @@ namespace CsharpProject.OOPS
             Console.WriteLine("Car is moving");
 
         }
-        public static void Main(string[] args)
+        public static void dain(string[] args)
         {
             Cars my = new Cars();
             my.VehiclesMoves();
