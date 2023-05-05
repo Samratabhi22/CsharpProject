@@ -8,7 +8,7 @@ namespace CsharpProject.ConvertTOint
 {
     public class ConvToInt
     {
-        public static void Main()
+        public static void Nnnain()
         {
             double doubleNum = 11.52;
            // int intNum;
